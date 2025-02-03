@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000000; /* Warna latar belakang hitam */
+    color: #ffffff; /* Warna teks putih */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #000000, #1a1a1a);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #ff0000; /* Garis merah di bagian bawah header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ff0000; /* Warna teks merah */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; /* Efek glow merah */
+}
+
+/* Main Content */
+main {
+    padding: 100px;
+}
+
+/* Gallery Items */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    background: #1a1a1a; /* Warna latar item */
+    border: 2px solid #ff0000; /* Border merah */
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Shadow merah */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-10px); /* Efek hover naik */
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.8); /* Shadow merah lebih terang saat hover */
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.item h2 {
+    font-size: 1.5rem;
+    color: #ff0000; /* Warna teks merah */
+    margin: 10px 0;
+}
+
+.item p {
+    font-size: 1rem;
+    color: #ffffff; /* Warna teks putih */
+}
+
+/* Download Button */
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff0000; /* Warna latar merah */
+    color: #ffffff; /* Warna teks putih */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #cc0000; /* Warna latar merah lebih gelap saat hover */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Shadow merah saat hover */
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #000000, #1a1a1a);
+    padding: 10px 0;
+    text-align: center;
+    border-top: 3px solid #ff0000; /* Garis merah di bagian atas footer *
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ff0000; /* Warna teks merah */
+    text-shadow: 0 0 5px #ff0000; /* Efek glow merah */
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000000; /* Warna latar belakang hitam */
+    color: #ffffff; /* Warna teks putih */
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(45deg, #000000, #1a1a1a);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #ff0000; /* Garis merah di bagian bawah header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ff0000; /* Warna teks merah */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; /* Efek glow merah */
+}
+
+.gallery {
+    display: grid; /* Mengaktifkan CSS Grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom dengan lebar yang sama */
+    gap: 20px; /* Jarak antara item */
+    padding: 20px;
+}
+
+.item {
+    border: 2px solid #ff0000; /* Border merah */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background: #1a1a1a; /* Warna latar item */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Shadow merah */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-10px); /* Efek hover naik */
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.8); /* Shadow merah lebih terang saat hover */
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff0000; /* Warna latar merah */
+    color: #ffffff; /* Warna teks putih */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #cc0000; /* Warna latar merah lebih gelap saat hover */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Shadow merah saat hover */
+}
+
+footer {
+    background: linear-gradient(45deg, #000000, #1a1a1a);
+    padding: 10px 0;
+    text-align: center;
+    border-top: 3px solid #ff0000; /* Garis merah di bagian atas footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ff0000; /* Warna teks merah */
+    text-shadow: 0 0 5px #ff0000; /* Efek glow merah */
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom pada layar kecil */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr; /* 1 kolom pada layar sangat kecil */
+    }
+}.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Membuat item wrap ke baris baru jika tidak cukup ruang */
+    gap: 20px; /* Jarak antar item */
+}
+
+.item {
+    flex: 1 1 calc(33.333% - 20px); /* 3 kolom di desktop */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex: 1 1 calc(50% - 20px); /* 2 kolom di tablet */
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        flex: 1 1 100%; /* 1 kolom di mobile */
+    }
+}
